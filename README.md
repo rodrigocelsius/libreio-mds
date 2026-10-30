@@ -1,21 +1,19 @@
-# MinIO Design System
+# libreio-mds
 
-The MinIO Design System is a design specification for all UI elements used in MinIO products.
+Design system (React component library) used by the
+[libreio Console](https://github.com/rodrigocelsius/libreio-console).
 
-## How to test
+This repository is a fork of MinIO's `mds` (`github.com/minio/mds`), which has
+been removed from GitHub. It is based on upstream tag **v1.0.4**
+(`027fb7f9834e2bd6daba7f62a9d04d9a3606fbe1`), the version pinned by MinIO
+Console v1.7.6, recovered through the
+[OpenMaxIO mirror](https://github.com/OpenMaxIO/mds). The package name is
+still `mds` so the console sources need no changes.
 
-You can test this package using the embedded storybook. Please follow these steps:
+The upstream README is kept at [UPSTREAM_README.md](UPSTREAM_README.md).
 
-1. Do `yarn install` in the root folder of mds
-2. Start Story book by running `yarn storybook`
-3. Open any browser and go to `http://localhost:6006`
+MinIO is a trademark of MinIO, Inc. libreio is not affiliated with,
+endorsed by, or sponsored by MinIO, Inc.
 
-## Build distribution files
-
-To create distribution files you can run `yarn build` or `make build` in source folder. This will create the required dist folders.
-
-This process is required everytime a new component is created and ready to be distributed
-
-## License
-
-MinIO Design System source is licensed under the GNU AGPLv3 license that can be found in the [LICENSE](https://github.com/minio/mds/blob/master/LICENSE) file.
+Licensed under the GNU Affero General Public License v3.0 or later; see
+[LICENSE](LICENSE).
