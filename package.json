@@ -64,7 +64,7 @@
     "storybook-dark-mode": "4.0.1",
     "ts-jest": "^29.2.3",
     "tslib": "^2.6.3",
-    "typescript": "^5.5.3"
+    "typescript": "^5.9.3"
   },
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
